@@ -8,44 +8,42 @@ body {
     background: #000000;
     color: #9C9C9C;
     font-family: 'IBM Plex Sans', sans-serif;
-
-
-}
-
-.logo11 {
     display: flex;
-    justify-content: space-evenly;
-    margin: 32px 0;
-    margin-bottom: 94px;
-}
-
-
-
-.funciona {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.logo2 {
-    margin: -12px auto;
-}
-
-.container {
-    width: 700px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
     flex-direction: column;
-    align-content: stretch;
+    align-items: center;
 
 }
 
-.child {
+header {
+
     display: flex;
-    justify-content: space-between;
-    padding: 15px 0px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px ;
 }
+
+
+
+
+
+
+h1 {
+    color: white;
+    margin: 30px;
+    background: #000000;
+    
+}
+
+main {
+    display: flex;
+    width: 700px;
+    margin: 30px;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+
 
 .acesso {
     height: 160px;
@@ -58,17 +56,6 @@ body {
 
 }
 
-.local {
-    display: flex;
-    justify-content: center;
-}
-
-.but {
-    display: flex;
-    display: flex;
-    justify-content: center;
-
-}
 
 .but1 {
     border: 1.5px solid #ffffff;
@@ -78,10 +65,20 @@ body {
     background-color: #000000;
     margin-top: 94px;
 }
-.but1:hover{
+
+.but1:hover {
     background-color: #ffffff;
     color: black;
 }
-.acesso img:hover{
+
+.acesso img {
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.acesso img:hover {
     border: 3px solid #7B61FF;
+}
+.acesso:hover{
+    color: white;
 }
